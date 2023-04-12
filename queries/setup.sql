@@ -1,0 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS postgis;
+
+SELECT postgis_full_version();
+
+CREATE EXTENSION IF NOT EXISTS pgrouting;
